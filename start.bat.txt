@@ -1,0 +1,7 @@
+@echo off
+echo Starting ResumeRadar...
+start cmd /k "cd C:\Users\abhis\ai-resume-analyzer\server && node index.js"
+start cmd /k "cd C:\Users\abhis\ai-resume-analyzer\client && npm run dev"
+echo Both servers started!
+echo Backend: http://localhost:5000
+echo Frontend: http://localhost:5173
